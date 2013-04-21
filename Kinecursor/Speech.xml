@@ -1,0 +1,72 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>plot</tag>
+        <one-of>
+          <item> plot map </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>hello</tag>
+        <one-of>
+          <item> welcome </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>bye</tag>
+        <one-of>
+          <item> bye nasa</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>drag</tag>
+        <one-of>
+          <item> drag </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>release</tag>
+        <one-of>
+          <item> release </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>zoomIn</tag>
+        <one-of>
+          <item> zoom in </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>zoomOut</tag>
+        <one-of>
+          <item> zoom out </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>right</tag>
+        <one-of>
+          <item> rotate right </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>left</tag>
+        <one-of>
+          <item> rotate left </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>up</tag>
+        <one-of>
+          <item> rotate up </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>down</tag>
+        <one-of>
+          <item> rotate down </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
